@@ -1,0 +1,30 @@
+import type { LevelScript } from "./types";
+
+export const level09: LevelScript = {
+  id: 9,
+  name: "Azotea Final",
+  speed: 7.4,
+  obstacles: 11,
+  distance: 5500,
+  description: "Últimas azoteas antes de la leyenda.",
+  segments: [
+    "flat",
+    "cable",
+    "up",
+    "flat",
+    "gap",
+    "flat",
+    "cable",
+    "up",
+    "flat",
+    "down",
+    "gap",
+    "flat",
+    "cable",
+    "flat",
+    "up",
+    "gap",
+    "flat",
+    "flat",
+  ],
+};

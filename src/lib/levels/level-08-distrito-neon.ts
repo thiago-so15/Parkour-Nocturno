@@ -1,0 +1,30 @@
+import type { LevelScript } from "./types";
+
+export const level08: LevelScript = {
+  id: 8,
+  name: "Distrito Neon",
+  speed: 7.0,
+  obstacles: 10,
+  distance: 5200,
+  description: "Neones y ritmo frenético en el distrito.",
+  segments: [
+    "flat",
+    "up",
+    "flat",
+    "cable",
+    "gap",
+    "flat",
+    "cable",
+    "flat",
+    "up",
+    "gap",
+    "flat",
+    "down",
+    "cable",
+    "flat",
+    "gap",
+    "flat",
+    "up",
+    "flat",
+  ],
+};

@@ -1,0 +1,33 @@
+import type { LevelScript } from "./types";
+
+export const level10: LevelScript = {
+  id: 10,
+  name: "Leyenda Urbana",
+  speed: 8.0,
+  obstacles: 12,
+  distance: 6000,
+  description: "El desafío definitivo del parkour nocturno.",
+  segments: [
+    "flat",
+    "up",
+    "cable",
+    "gap",
+    "flat",
+    "up",
+    "cable",
+    "gap",
+    "flat",
+    "down",
+    "cable",
+    "gap",
+    "up",
+    "flat",
+    "cable",
+    "gap",
+    "flat",
+    "up",
+    "flat",
+    "cable",
+    "flat",
+  ],
+};
